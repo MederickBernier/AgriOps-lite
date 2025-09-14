@@ -1,5 +1,5 @@
 {
-  "name": "MederickBernier/AgriOps-lite",
+  "name": "mederickbernier/agriops-lite",
   "type": "project",
   "require": {
     "predis/predis": "^2.2",
@@ -20,5 +20,10 @@
     "test": "pest",
     "stan": "phpstan analyse --memory-limit=512M",
     "rector": "rector process --dry-run"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
   }
 }
