@@ -1,0 +1,6 @@
+parameters:
+  level: max
+  paths:
+    - src
+    - public/index.php
+    - worker/worker.php
